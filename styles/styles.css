@@ -305,7 +305,7 @@ input[type="submit"]
 
 }
 /* footer section */
-.footer-container{
+#footer-container{
     max-width: 1440px;
     height: 100px;
     margin: 0 auto;
@@ -327,4 +327,5 @@ input[type="submit"]
 .footer-text-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
