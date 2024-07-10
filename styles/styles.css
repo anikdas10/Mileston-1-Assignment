@@ -32,7 +32,7 @@ nav{
 }
 /* header */
 .header-container{
-    max-width: 1440 px;
+    width: 1440 px;
     height: 652px;
     background-image: url(../assets/Hero-bg.png);
     margin:0 auto;
@@ -304,4 +304,27 @@ input[type="submit"]
   cursor: pointer;
 
 }
+/* footer section */
+.footer-container{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 90px;
+     padding: 32px 150px;
 
+}
+.footer-text-container{
+   
+   background-color: rgba(13, 19, 33, 0.06);
+   border-radius: 16px;
+}
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.footer-text-container{
+    display: flex;
+    justify-content: space-between;
+}
